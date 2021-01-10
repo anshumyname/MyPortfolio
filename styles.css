@@ -134,7 +134,7 @@
   position: absolute;
   margin-left: 50%;
   border-left: 15px solid rgb(255, 255, 255);
-  height: 200%;
+  height: 100%;
 }
 
 .aim {
@@ -149,8 +149,6 @@
 }
 
 .times {
-    /* margin-top: 43.5%; */
-    /* background-color: rgba(103, 135, 233, 0.795); */
     background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/pf-ake343554454540.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=c5573877cbbf94bc073357fdf423c70b);
     position: absolute;
     width: 50%;
@@ -165,7 +163,7 @@
     content: "";
     background: #C5CAE9;
     width: 5px;
-    height: 99%;
+    height: 90%;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -201,8 +199,9 @@
     position: relative;
     width: 45%;
     padding: 10px 30px;
+    color: #fff;
     border-radius: 4px;
-    background: #b0b5f1d3;
+    background: #b0b5f196;
     box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
   }
   .timeline-content::after {
@@ -263,7 +262,7 @@
   
   blockquote {
     margin-top: 30px;
-    color: #757575;
+    color: #fff;
     border-left-color: #3F51B5;
     padding: 0 20px;
   }
@@ -334,4 +333,53 @@
     display: inline-block;
     
 }
+
+.projects .solid {
+  position: relative;
+  border-bottom: 10px solid rgb(36, 9, 58) ;
+}
+.projects {
+  margin-top: 83%;
+  /* background-image: url(./pics/icons/project-backgroun.webp); */
+  position: relative;
+  background-color: rgb(36, 9, 58);
+  padding: 20px;
+
+}
+
+.project-background {
+  height: 80%;
+  background-image: url(./pics/icons/project-backgroun.webp);
+  background-size: cover;
+  background-repeat: repeat-y;
+  z-index: -1;
+}
+.project-background :nth-child(odd){
+  transform: scaleX(-1);
+}
+
+.project-cards .card {
+  /* background-color: gray; */
+  width: 80%;
+  margin-left: 80px;
+  margin-right: 80px ;
+  margin-top: 25px;
+  border-radius: 25px;
+  margin-bottom: 30px;
+  padding: 15px;
+  background-color: #ff07ff69;
+  color: white;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  /* font-style: italic; */
+}
+
+.project-cards .card:nth-child(even) {
+  float: right;
+}
+
+.project-cards .card:nth-child(odd) {
+  float: left;
+}
+
+
 
